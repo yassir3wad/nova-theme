@@ -1,0 +1,87 @@
+/* Generated using nova-theme-generator.com */
+
+:root {
+    --transparent: transparent;
+    --black: #22292f;
+    --white: white;
+    --white-50: rgba(255, 255, 255, 0.5);
+    --danger: #DA5656;
+    --success: #75DA56;
+    --warning: #DA8F56;
+    --info: #569EDA;
+    --primary: #7691AB;
+    --primary-dark: #4C5F71;
+    --primary-70: rgba(118, 145, 171, 0.7);
+    --primary-50: rgba(118, 145, 171, 0.5);
+    --primary-30: rgba(118, 145, 171, 0.3);
+    --primary-10: rgba(118, 145, 171, 0.1);
+    --logo: ;
+    --sidebar-icon: #b3c1d1;
+    --20: #f6fbff;
+    --30: #f4f7fa;
+    --40: #eef1f4;
+    --50: #e3e7eb;
+    --60: #bacad6;
+    --70: #b3b9bf;
+    --80: #7c858e;
+    --90: #252d37;
+    --90-half: rgba(40, 54, 61, 0.5);
+}
+
+.bg-grad-sidebar {
+  background: #1b2438;
+}
+
+.bg-40 {
+    background-color: #353d53;
+}
+
+.bg-white {
+    background-color: #1b2438;
+}
+
+.text-90 {
+    color: #fff;
+}
+
+.text-80 {
+    color: #fff;
+}
+
+.card {
+    background-color: #9d9cad;
+}
+
+.table td {
+    font-weight: 300;
+    color: #fff;
+    font-weight: 800;
+    border-bottom-width: .5px;
+    border-color: #666;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    height: 3.8125rem;
+    background-color: #6f6d82;
+}
+.table tr:hover td {
+    background-color: #9d9cad;
+}
+
+h1, h2, h3, h4, h5, h6, p, pre, span {
+    color: #fff;
+}
+
+.table th {
+    background-color: #2d2c3e;
+    color: #fff;
+}
+
+.text-90-half {
+    color: #fff;
+}
+.trix-toolbar .trix-button {
+	background: #fff;
+}
+.trix-content {
+    background-color: #fff;
+}

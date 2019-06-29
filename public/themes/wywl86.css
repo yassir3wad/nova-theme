@@ -1,0 +1,33 @@
+/* Generated using nova-theme-generator.com */
+
+:root {
+    --transparent: transparent;
+    --black: #404040;
+    --white: white;
+    --white-50: rgba(255, 255, 255, 0.5);
+    --danger: #f50057;
+    --success: #64dd17;
+    --warning: #ffc107;
+    --info: #651fff;
+    --primary: #000000;
+    --primary-dark: #000000;
+    --primary-70: rgba(0, 0, 0, 0.7);
+    --primary-50: rgba(0, 0, 0, 0.5);
+    --primary-30: rgba(0, 0, 0, 0.3);
+    --primary-10: rgba(0, 0, 0, 0.1);
+    --logo: ;
+    --sidebar-icon: White;
+    --20: rgb(255, 255, 255);
+    --30: rgb(242, 242, 242);
+    --40: rgb(217, 217, 217);
+    --50: rgb(191, 191, 191);
+    --60: rgb(166, 166, 166);
+    --70: rgb(140, 140, 140);
+    --80: rgb(115, 115, 115);
+    --90: rgb(89, 89, 89);
+    --90-half: rgba(40, 54, 61, 0.5);
+}
+
+.bg-grad-sidebar {
+  background-image: linear-gradient(0deg, #7e8ea1 0%, #3c4655 100%);
+}

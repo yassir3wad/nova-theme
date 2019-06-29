@@ -1,0 +1,70 @@
+/* Generated using nova-theme-generator.com */
+
+:root {
+    --transparent: transparent;
+    --black: #22292f;
+    --white: white;
+    --white-50: rgba(255, 255, 255, 0.5);
+    --danger: #EF5753;
+    --success: #51D88A;
+    --warning: #F2D024;
+    --info: #6CB2EB;
+    --primary: #38C172;
+    --primary-dark: #1F9D55;
+    --primary-70: rgba(56, 193, 114, 0.7);
+    --primary-50: rgba(56, 193, 114, 0.5);
+    --primary-30: rgba(56, 193, 114, 0.3);
+    --primary-10: rgba(56, 193, 114, 0.1);
+    --logo: ;
+    --sidebar-icon: #38C172;
+    --20: #f6fbff;
+    --30: #f4f7fa;
+    --40: #eef1f4;
+    --50: #e3e7eb;
+    --60: #bacad6;
+    --70: #b3b9bf;
+    --80: #7c858e;
+    --90: #252d37;
+    --90-half: rgba(40, 54, 61, 0.5);
+}
+
+.bg-grad-sidebar {
+	background: #11998e;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #DAE1E7, #3D4852);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #DAE1E7, #3D4852); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btn-primary {
+    background: #38C172;
+    background: linear-gradient(to right, #1F9D55 0%, #51D88A 100%);
+}
+
+.btn-primary:hover {
+	background: #38C172;
+}
+
+.btn-danger {
+    background: #E3342F;
+    background: linear-gradient(to right, #EF5753 0%, #CC1F1A 100%);
+}
+
+.btn-danger:hover {
+	background: #E3342F;
+}
+
+table &gt; tr:hover &gt; td {
+	background-color: #F4FFFA !important;
+}
+
+table &gt; thead &gt; tr &gt; th {
+	background-color: #51D88A !important;
+	color: #1A4731 !important;
+}
+
+table &gt; tbody &gt; tr:hover &gt; td {
+	background-color: #F4FFFA !important;
+}
+
+table &gt; tfoot &gt; tr:hover &gt; td {
+	background-color: #F4FFFA !important;
+}
