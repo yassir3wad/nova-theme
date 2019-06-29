@@ -12,8 +12,7 @@
   "require": {
     "php": ">=7.1.0",
     "inspheric/nova-url-field": "^1.32",
-    "laravel/nova": "2.0.*",
-    "metrixinfo/nova-iframe": "^1.0"
+    "laravel/nova": "2.0.*"
   },
   "autoload": {
     "psr-4": {
