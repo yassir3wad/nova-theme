@@ -64,7 +64,7 @@ class Theme extends Resource
 
             Iframe::make('iFrame Preview', function (){
                 return file_get_contents("https://novathemes.beyondco.de/themes/" . $this->model()->code);
-            }),
+            })->size('100%', 600),
         ];
     }
 
