@@ -1,9 +1,9 @@
 <?php
 
-namespace Digitalcloud\NovaTheme\Http\Middleware;
+namespace Yassir3wad\NovaTheme\Http\Middleware;
 
 use Laravel\Nova\Nova;
-use Digitalcloud\NovaTheme\NovaTheme;
+use Yassir3wad\NovaTheme\NovaTheme;
 
 class Authorize
 {

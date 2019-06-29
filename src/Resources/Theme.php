@@ -1,8 +1,8 @@
 <?php
 
-namespace Digitalcloud\NovaTheme\Resources;
+namespace Yassir3wad\NovaTheme\Resources;
 
-use Digitalcloud\NovaTheme\Resources\Actions\SetDefaultThemeAction;
+use Yassir3wad\NovaTheme\Resources\Actions\SetDefaultThemeAction;
 use Inspheric\Fields\Url;
 use Laravel\Nova\Fields\Boolean;
 use Laravel\Nova\Fields\ID;
@@ -19,7 +19,7 @@ class Theme extends Resource
      *
      * @var string
      */
-    public static $model = \Digitalcloud\NovaTheme\Models\Theme::class;
+    public static $model = \Yassir3wad\NovaTheme\Models\Theme::class;
 
     /**
      * The single value that should be used to represent the resource when being displayed.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Digitalcloud\NovaTheme;
+namespace Yassir3wad\NovaTheme;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Tool;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Digitalcloud\NovaTheme\Http\Controllers;
+namespace Yassir3wad\NovaTheme\Http\Controllers;
 
-use Digitalcloud\NovaTheme\Models\Theme;
+use Yassir3wad\NovaTheme\Models\Theme;
 use Illuminate\Support\Facades\File;
 
 class ThemeController

@@ -1,6 +1,6 @@
 <?php
 
-namespace Digitalcloud\NovaTheme\Resources\Actions;
+namespace Yassir3wad\NovaTheme\Resources\Actions;
 
 use Illuminate\Bus\Queueable;
 use Laravel\Nova\Actions\Action;
@@ -9,7 +9,7 @@ use Laravel\Nova\Fields\ActionFields;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Queue\InteractsWithQueue;
 use Laravel\Nova\Fields\Boolean;
-use Digitalcloud\NovaTheme\Models\Theme;
+use Yassir3wad\NovaTheme\Models\Theme;
 
 class SetDefaultThemeAction extends Action
 {

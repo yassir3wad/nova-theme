@@ -13,4 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/sync', [\Digitalcloud\NovaTheme\Http\Controllers\ThemeController::class, "sync"]);
+Route::get('/sync', [\Yassir3wad\NovaTheme\Http\Controllers\ThemeController::class, "sync"]);

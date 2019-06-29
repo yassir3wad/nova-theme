@@ -1,29 +1,33 @@
 {
-    "name": "digitalcloud/nova-theme",
-    "description": "A Laravel Nova tool.",
-    "keywords": [
-        "laravel",
-        "nova"
-    ],
-    "license": "MIT",
-    "require": {
-        "php": ">=7.1.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Digitalcloud\\NovaTheme\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Digitalcloud\\NovaTheme\\ToolServiceProvider"
-            ]
-        }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+  "name": "yassirawad/nova-theme",
+  "description": "Laravel nova tool that provides multiple theme for nova cms",
+  "keywords": [
+    "laravel",
+    "nova",
+    "theme",
+    "themes",
+    "novathemes"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.1.0",
+    "laravel/nova": "2.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Yassir3wad\\NovaTheme\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Yassir3wad\\NovaTheme\\ToolServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }

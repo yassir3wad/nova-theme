@@ -1,13 +1,13 @@
 <?php
 
-namespace Digitalcloud\NovaTheme;
+namespace Yassir3wad\NovaTheme;
 
-use Digitalcloud\NovaTheme\Models\Theme;
+use Yassir3wad\NovaTheme\Models\Theme;
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use Digitalcloud\NovaTheme\Http\Middleware\Authorize;
+use Yassir3wad\NovaTheme\Http\Middleware\Authorize;
 
 class ToolServiceProvider extends ServiceProvider
 {
@@ -34,7 +34,7 @@ class ToolServiceProvider extends ServiceProvider
         });
 
         Nova::resources([
-            \Digitalcloud\NovaTheme\Resources\Theme::class
+            \Yassir3wad\NovaTheme\Resources\Theme::class
         ]);
     }
 

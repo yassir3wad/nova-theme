@@ -1,6 +1,6 @@
 <?php
 
-namespace Digitalcloud\NovaTheme\Models;
+namespace Yassir3wad\NovaTheme\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;

@@ -281,7 +281,7 @@ class CreateThemesTable extends Migration
             ]
         ];
         foreach (array_reverse($data) as $datum) {
-            \Digitalcloud\NovaTheme\Models\Theme::create($datum);
+            \Yassir3wad\NovaTheme\Models\Theme::create($datum);
         }
     }
 
