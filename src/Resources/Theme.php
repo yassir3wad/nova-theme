@@ -2,6 +2,7 @@
 
 namespace Yassir3wad\NovaTheme\Resources;
 
+use Metrixinfo\Nova\Fields\Iframe;
 use Yassir3wad\NovaTheme\Resources\Actions\SetDefaultThemeAction;
 use Inspheric\Fields\Url;
 use Laravel\Nova\Fields\Boolean;
@@ -59,7 +60,11 @@ class Theme extends Resource
 
             Url::make('Preview', function () {
                 return "https://novathemes.beyondco.de/themes/" . $this->model()->code;
-            })->alwaysClickable()->label("Preview")
+            })->alwaysClickable()->label("Preview"),
+
+            Iframe::make('iFrame Preview', function (){
+                return file_get_contents("https://novathemes.beyondco.de/themes/" . $this->model()->code);
+            }),
         ];
     }
 
