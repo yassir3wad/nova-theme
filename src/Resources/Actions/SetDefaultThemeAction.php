@@ -57,6 +57,6 @@ class SetDefaultThemeAction extends Action
     private function getRedirectedUrl()
     {
         $novaPath = rtrim(config("nova.path"), "/");
-        return rtrim(config("nova.url"), "/") . ($novaPath ? "/$novaPath" : "") . "/nova-theme";
+        return url(($novaPath ? "/$novaPath" : "") . "/nova-theme");
     }
 }
